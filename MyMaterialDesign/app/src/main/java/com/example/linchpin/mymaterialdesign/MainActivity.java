@@ -220,7 +220,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public static void animateToBackArrow() { //animation
+    public static void animateToBackArrow() { //animation my changes
         ValueAnimator anim = ValueAnimator.ofFloat(MENU_POSITION, ARROW_POSITION);
         anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
